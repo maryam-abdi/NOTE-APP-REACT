@@ -1,0 +1,185 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.note-app{
+  width: 50rem;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.note-app__header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  border-bottom: 1px solid gray;
+}
+.note-app__header h1{
+  color: black;
+}
+.note-app__header div{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  margin-bottom: 15px;
+  
+}
+.note-app__header div select{
+  padding: 5px 10px;
+  border: 1px solid rgb(148, 147, 147);
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+.note-app__main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 3rem;
+}
+.add-note-app{
+  width: 35%;
+  height: 300px;
+  margin-top: 20px;
+  
+}
+.add-note-app__form{
+width: 100%;
+margin-bottom: 20px;
+margin-top: 20px;
+display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.add-note-app h2{
+  color: black;
+}
+.add-note-app input{
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+ font-weight: 550;
+}
+.add-note-app button{
+  width: 100%;
+  height: 3rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 255, 0.671);
+  border-radius: 12px
+}
+.notes{
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+}
+.notes-header{
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: rgba(41, 41, 68, 0.603);
+  padding-left: 50px;
+  
+}
+.notes-header div{
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 3px;
+ color: rgba(61, 61, 107, 0.685);
+}
+.count{
+ 
+  background-color: rgba(61, 61, 107, 0.685);
+  padding: 0px 2px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+}
+.notes-main{
+width:100%;
+height:auto;
+display:flex;
+flex-direction:column;
+justify-content:start;
+align-items:end;
+
+}
+.note{
+  width:90%;
+  height:120px;
+  background-color:#fff;
+  margin-top:12px;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.note p{
+  color: rgb(184, 182, 182);
+}
+.note-main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: black;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+.note-checked{
+  text-decoration: line-through;
+  color: rgb(85, 82, 82);
+}
+.note-detail{
+ text-align: start;
+ font-size: 12px;
+}
+.note-detail p{
+  color: rgb(172, 168, 168);
+}
+.note-icons{
+  display: flex;
+  gap: 11px;
+}
+.note-icons input{
+  width: 15px;
+  height: 15px;
+  
+}
+.h2-style{
+  color: black;
+}
+.note-app__header select{
+  font-weight: bold;
+}
